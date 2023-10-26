@@ -1,0 +1,77 @@
+.home {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://media.licdn.com/dms/image/D5612AQGvDKAbhWiC6w/article-cover_image-shrink_600_2000/0/1686891837012?e=2147483647&v=beta&t=bKmj-84m3h-qD-7nIFrrj2zUdM9fbxlTpBTZW9NNxDE");
+    background-size: 1500px 800px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 750px;
+    gap: 70px;
+}
+
+.heading {
+    width: 800px;
+    padding-top: 5px;
+    font-size: x-large;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.container1 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 750px;
+    margin-top: 80px;
+}
+
+p {
+    background-image: url("https://img.freepik.com/free-photo/white-smoke-background-textured-wallpaper-high-resolution_53876-133394.jpg");
+    display: inline-block;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    padding: 20px;
+}
+
+iframe {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

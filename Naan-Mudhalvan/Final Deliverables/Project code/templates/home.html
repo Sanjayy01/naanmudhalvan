@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GLOBETREK INSIGHTS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/st.css') }}">
+</head>
+
+<body class="home" style="background-image: url(https://images.pexels.com/photos/7412094/pexels-photo-7412094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");height: 100%; background-position: center;background-repeat: no-repeat; background-size: cover;">
+    <div class="heading">
+        <h1>GLOBETREK INSIGHTS: NAVIGATING GLOBAL COUNTRY DATA WITH IBM COGNOS </h1>
+    </div>
+
+    <div class="container">
+        <a class="link" href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a class="link" href="{{ url_for('story') }}">Story</a>
+        <a class="link" href="{{ url_for('report') }}">Report</a>
+    </div>
+    <div class="container1">
+        <p>
+            <span> "Globetrek Insights: Navigating global country data", In our increasingly interconnected world, understanding global country data is essential for businesses, policymakers, researchers, and curious minds alike. Whether you're a multinational corporation seeking to expand into new markets, a government agency formulating international policies, an academic delving into cross-border studies, or simply a traveler planning your next adventure, access to comprehensive and insightful country data is a powerful tool.
+            </span>
+        </p>
+
+    </div>
+</body>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</html>
